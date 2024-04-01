@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sem3_project</title>
+    <title>Sem6_project</title>
     <script src="https://kit.fontawesome.com/7b8734c257.js" crossorigin="anonymous"></script>
     <!-- сверху скрипт на подключение fontawesome -->
     <link rel="stylesheet" href="style.css">
@@ -13,22 +13,24 @@
 <body>
     <section class="top">
 
-        <section class="header">
-            <div class="nav">
-                <a class="header__links" href=" # ">Home</a>
-                <a class="header__links" href="#">About</a>
-                <a class="header__links" href=" # ">Services</a>
-                <a class="header__links" href="#">Blog</a>
-                <a class="header__links" href=" # ">Contact</a>
-            </div>
-        </section>
-
-        <section class="top__content">
+        <header class="header">
             <div class="container">
-                <section class="top__content__container flex">
-                    <div class="top__content__info">
-                        <h2 class="top__content__heading-2">Next generation platform</h2>
-                        <h1 class="top__content__heading-1">Artificial intelligence & Syber security</h1>
+                <div class="nav">
+                    <a class="header__links" href=" # ">Home</a>
+                    <a class="header__links" href="#">About</a>
+                    <a class="header__links" href=" # ">Services</a>
+                    <a class="header__links" href="#">Blog</a>
+                    <a class="header__links" href=" # ">Contact</a>
+                </div>
+            </div>
+        </header>
+
+        <article class="top__content">
+            <div class="container">
+                <div class="top__block flex">
+                    <div class="top__info">
+                        <h2 class="top__heading-2">Next generation platform</h2>
+                        <h1 class="top__heading-1">Artificial intelligence & Syber security</h1>
                         <p class="top__text">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
                         <div class="top__buttons">
                             <a href=" # " class="buttons">Get Started</a>
@@ -36,11 +38,11 @@
                         </div>
                     </div>
                     <img class="top__img" src=" img/top_content_image.svg " alt="top_content_image.svg ">
-                </section>
+                </div>
             </div>
-        </section>
+        </article>
 
-        <section class="top__logos ">
+        <article class="top__logos ">
             <div class="container">
                 <div class="logos flex ">
                     <img src="img/logo_1.svg " alt="logo1.svg ">
@@ -49,22 +51,22 @@
                     <img src="img/logo_4.svg " alt="logo4.svg ">
                 </div>
             </div>
-        </section>
+        </article>
 
     </section>
 
     <section class="middle">
         <div class="container">
-            <section class="middle__content flex">
+            <article class="middle__content flex">
                 <img class="middle__img" src="img/middle_content_image.svg " alt="middle_content_image.svg ">
-                <div class="middle__content__info">
-                    <h1 class="middle__info__title">Apply AI, Deep Learning and Data Sciece to solve</h1>
-                    <p class="middle__info__text">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+                <div class="middle__info">
+                    <h1 class="middle__title">Apply AI, Deep Learning and Data Sciece to solve</h1>
+                    <p class="middle__text">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
                     <div class="middle__buttons">
                         <a href="# " class="buttons">Learn More</a>
                     </div>
                 </div>
-            </section>
+            </article>
         </div>
     </section>
 
@@ -106,9 +108,9 @@
 
     <section class="bottom">
         <div class="container">
-            <section class="bottom__content flex">
-                <div class="bottom__content__info">
-                    <h1 class="bottom__content__heading-1 ">What our clients say about our awesome solutions</h1>
+            <article class="bottom__content flex">
+                <div class="bottom__info">
+                    <h1 class="bottom__heading-1 ">What our clients say about our awesome solutions</h1>
                     <p class="bottom__text ">
                         To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it who do not know.</p>
                     <p class="bottom__text ">
@@ -118,16 +120,16 @@
                     <p class="bottom__text ">
                         Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
                 </div>
-                <img class="bottom_img" src=" img/bottom_content_image.svg " alt="bottom_content_image.svg ">
-            </section>
+                <img class="bottom__img" src=" img/bottom_content_image.svg " alt="bottom_content_image.svg ">
+            </article>
         </div>
     </section>
 
     <section class="footer ">
         <div class="responsive__footer">
             <div class="container ">
-                <div class="footer__content ">
-                    <div class="footer__content__info ">
+                <article class="footer__content ">
+                    <div class="footer__info ">
                         <h1 class="footer__info__title ">INFORMATION</h1>
                         <div class="footer__info__email flex_footer ">
                             <i class="fa fa-regular fa-envelope " style="color: white; "></i>
@@ -142,11 +144,11 @@
                             <h2 class="adress ">450 Wall Street, USA, New York</h2>
                         </div>
                     </div>
-                    <div class="footer__content__about ">
+                    <div class="footer__about ">
                         <h1 class="footer__about__title ">ABOUT THE STORE</h1>
                         <p class="footer__about__text ">Lorem ipsum is placeholder text commonly used in the graphic, print, and layouts and visual mockups.</p>
                     </div>
-                    <div class="footer__content__social ">
+                    <div class="footer__social ">
                         <h1 class="footer__social__title ">ABOUT THE STORE</h1>
                         <a class="footer__social__site " href="# ">www.company.com</a>
                         <div class="footer__social__icons ">
@@ -155,7 +157,7 @@
                             <i class="fa-brands fa-youtube " style="color: white; "></i>
                         </div>
                     </div>
-                </div>
+                </article>
             </div>
         </div>
     </section>
